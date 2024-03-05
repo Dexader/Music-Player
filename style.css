@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:regular,600&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Istok+Web:regular&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Karla:regular&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Kenia:regular&display=swap);
 
@@ -27,6 +28,7 @@ body {
 
 a {
 	text-decoration: none;
+	color: inherit;
 }
 
 ul li {
@@ -49,9 +51,32 @@ h3 {
 
 /*Header*/
 
+.header {
+	background: url('images/Desktop-1.png') 0 0 no-repeat;
+	padding-inline: 115px 75px;
+}
 
+.header__inner {
+	display: flex;
+	align-items: center;
+	padding-top: 47px;
+}
 
+.header__logo {
+	margin-right: 190px;
+}
 
+.header__list {
+	display: flex;
+	column-gap: 100px;
+	font-family: "Istok Web", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.preview {
+	display: flex;
+}
 
 
 
