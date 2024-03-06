@@ -35,6 +35,11 @@ ul li {
 	list-style: none;
 }
 
+button {
+	color: inherit;
+	font-weight: inherit;
+}
+
 img {
 	width: 100%;
 	height: auto;
@@ -111,17 +116,11 @@ h3 {
 	left: 5%;
 }
 
-.headphones-preview {}
-
 .preview__right-side {
 	overflow: hidden;
 	position: relative;
 	z-index: 2;
 }
-
-.preview__phone {}
-
-.phone-preview {}
 
 .preview__cable {
 	position: absolute;
@@ -130,9 +129,54 @@ h3 {
 	z-index: -1;
 }
 
-.cable__preview {}
+/*Music*/
 
+.music {
+	font-family: Karla, sans-serif;
+	padding-top: 83px;
+	padding-left: 122px;
+	background: rgb(213, 48, 5);
+}
 
+.music__title {
+	font-size: 30px;
+	line-height: 35px;
+}
 
+.music__inner {
+	display: flex;
+	justify-content: space-between;
+}
 
+.music__link {
+	display: block;
+}
+
+.music__link:not(:last-child) {
+	margin-bottom: 88px;
+}
+
+.music__buttons {
+	margin-top: 267px;
+}
+
+.music__button {
+	display: block;
+	width: 382px;
+	padding-block: 18px;
+	font-size: 40px;
+	cursor: pointer;
+	background: radial-gradient(2087.07% 134.42% at 2% 8%, rgb(177, 62, 24), rgb(243, 80, 26) 100%);
+	box-shadow: -4px -4px 30px 0px rgba(255, 255, 255, 0.1), 4px 4px 4px 0px rgba(0, 0, 0, 0.5);
+	transition: box-shadow .3s ease;
+}
+
+.music__button:hover {
+	box-shadow: -1px -1px 30px 0px rgba(255, 255, 255, 0.1),
+		1px 1px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.music__image {
+	margin-top: 61px;
+}
 
