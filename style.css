@@ -180,3 +180,21 @@ h3 {
 	margin-top: 61px;
 }
 
+/*About*/
+
+.about {
+	display: flex;
+	flex-direction: column;
+	font-family: Karla, sans-serif;
+	font-size: 30px;
+	background: linear-gradient(180.00deg, rgb(213, 48, 5), rgb(0, 0, 0) 6.037%);
+}
+
+.about__title {
+	padding-top: 83px;
+	padding-left: 172px;
+}
+
+.about__text {
+	margin: 358px auto 476px;
+}
