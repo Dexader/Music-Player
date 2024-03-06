@@ -16,9 +16,9 @@ html {
 }
 
 body {
-	overflow: hidden;
 	color: #fff;
 	font-weight: 400;
+	scroll-behavior: smooth;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -52,7 +52,7 @@ h3 {
 /*Header*/
 
 .header {
-	background: url('images/Desktop-1.png') 0 0 no-repeat;
+	background: url('images/Desktop-1.png') center/cover no-repeat;
 	padding-inline: 115px 75px;
 }
 
@@ -74,9 +74,63 @@ h3 {
 	font-size: 18px;
 }
 
-.preview {
-	display: flex;
+.header__item {
+	transition: color .3s ease;
 }
+
+.header__item:hover {
+	color: #D53005;
+}
+
+.preview {
+	position: relative;
+	display: flex;
+	column-gap: 338px;
+}
+
+.preview__left-side {
+	max-width: 412px;
+	padding-top: 164px;
+}
+
+.preview__title {
+	font-family: Kenia, sans-serif;
+	font-size: 150px;
+	line-height: 1;
+	margin-bottom: 175px;
+}
+
+.preview__text {
+	font-family: "Istok Web", sans-serif;
+	font-size: 20px;
+}
+
+.preview__headphones {
+	position: absolute;
+	bottom: 0;
+	left: 5%;
+}
+
+.headphones-preview {}
+
+.preview__right-side {
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+
+.preview__phone {}
+
+.phone-preview {}
+
+.preview__cable {
+	position: absolute;
+	bottom: -10px;
+	right: 100px;
+	z-index: -1;
+}
+
+.cable__preview {}
 
 
 
