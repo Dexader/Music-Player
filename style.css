@@ -13,12 +13,12 @@
 
 html {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
 	color: #fff;
 	font-weight: 400;
-	scroll-behavior: smooth;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -66,13 +66,17 @@ h3 {
 
 .header {
 	background: url('images/Desktop-1.png') center/cover no-repeat;
-	padding-inline: 115px 75px;
 }
 
 .header__inner {
+	position: fixed;
+	width: 100%;
+	background-color: #000;
 	display: flex;
 	align-items: center;
 	padding-top: 47px;
+	padding-inline: 115px 75px;
+	z-index: 1;
 }
 
 .header__logo {
@@ -99,6 +103,7 @@ h3 {
 	position: relative;
 	display: flex;
 	column-gap: 338px;
+	padding-inline: 115px 75px;
 }
 
 .preview__left-side {
