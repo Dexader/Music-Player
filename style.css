@@ -54,6 +54,14 @@ h3 {
 	font-size: inherit;
 }
 
+.title {
+	padding-top: 83px;
+	padding-left: 122px;
+	font-family: Karla, sans-serif;
+	font-size: 30px;
+	line-height: 35px;
+}
+
 /*Header*/
 
 .header {
@@ -133,14 +141,7 @@ h3 {
 
 .music {
 	font-family: Karla, sans-serif;
-	padding-top: 83px;
-	padding-left: 122px;
 	background: rgb(213, 48, 5);
-}
-
-.music__title {
-	font-size: 30px;
-	line-height: 35px;
 }
 
 .music__inner {
@@ -190,11 +191,104 @@ h3 {
 	background: linear-gradient(180.00deg, rgb(213, 48, 5), rgb(0, 0, 0) 6.037%);
 }
 
-.about__title {
-	padding-top: 83px;
-	padding-left: 172px;
-}
-
 .about__text {
 	margin: 358px auto 476px;
 }
+
+/*Store*/
+
+.store {
+	overflow: hidden;
+	position: relative;
+	background-color: #D53005;
+	padding-bottom: 432px;
+}
+
+.store__title {
+	margin-bottom: 136px;
+}
+
+.button {
+	margin-left: 110px;
+	margin-bottom: 135px;
+}
+
+.button__link {
+	display: block;
+	width: 240px;
+}
+
+.button__link:not(:last-child) {
+	margin-bottom: 48px;
+}
+
+.button__item {
+	width: 240px;
+	padding-block: 5px;
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	border-radius: 30px;
+	box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.1), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+	transition: box-shadow .3s ease;
+}
+
+.button__item:hover {
+	box-shadow: -1px -1px 4px 0px rgba(255, 255, 255, 0.1), 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.microsoft {
+	background: rgba(2, 2, 2, 0.9);
+	transition: all .3s ease;
+}
+
+.microsoft:hover {
+	background-color: #E3E3E3;
+	color: #000;
+}
+
+.apple {
+	background-color: #E3E3E3;
+	color: #000;
+	transition: all .3s ease;
+}
+
+.apple:hover {
+	background-color: rgba(2, 2, 2, 0.9);
+	color: #fff;
+}
+
+.extra {
+	width: 431px;
+	margin-left: 19px;
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+}
+
+.extra__question {
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 26px;
+	margin-bottom: 17px;
+}
+
+.extra__desicion {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.extra__download {
+	display: inline-block;
+	color: rgba(2, 2, 2, 0.9);
+	text-decoration: underline;
+}
+
+.store__image {
+	position: absolute;
+	right: 0;
+	bottom: 250px;
+}
+
+
+
