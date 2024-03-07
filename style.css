@@ -290,5 +290,53 @@ h3 {
 	bottom: 250px;
 }
 
+/*Footer*/
 
+.footer {
+	display: flex;
+	flex-direction: column;
+	padding-block: 120px 74px;
+	padding-inline: 110px 62px;
+	background: linear-gradient(180.00deg, rgb(213, 48, 5), rgb(0, 0, 0) 4.015%);
+}
 
+.info {
+	display: flex;
+	align-self: end;
+	justify-content: space-between;
+	column-gap: 147px;
+	font-family: Montserrat, sans-serif;
+	margin-bottom: 76px;
+}
+
+.info__list {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.info__item {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.info__item:first-child {
+	margin-top: 27px;
+}
+
+.info__item:not(:last-child) {
+	margin-bottom: 27px;
+}
+
+.docs__title {
+	font-family: Kenia, sans-serif;
+	font-size: 50px;
+	line-height: 1;
+}
+
+.docs__list {
+	display: flex;
+	justify-content: space-between;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+}
